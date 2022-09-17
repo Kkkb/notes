@@ -1,0 +1,1 @@
+HashMap是无序的，LinkedHashMap是有序的，如果要按照插入顺序进行遍历，使用LinkedHashMap
