@@ -1,3 +1,5 @@
 HashMap是无序的，LinkedHashMap是有序的，如果要按照插入顺序进行遍历，使用LinkedHashMap
+HashMap如何确定数组下标：通过key的hashcode经过hash()函数处理后得到hash值，再通过按位与运算 (n-1)&hash得到下标
 
 时间复杂度采用大O符号表示法
+
